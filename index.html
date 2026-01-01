@@ -153,40 +153,66 @@
     </nav>
 
     <!-- HERO SECTION -->
-    <section id="home" class="pt-28 pb-16 hero-pattern text-white relative overflow-hidden">
+    <section id="home" class="pt-32 pb-20 hero-pattern text-white relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="text-center max-w-3xl mx-auto">
-                <span class="bg-brand-orange text-white text-sm font-bold px-3 py-1 rounded-full mb-4 inline-block shadow-md">
-                    للأطفال من 8 - 12 سنة
-                </span>
-                <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
-                    استثمار حقيقي في <br>
-                    <span class="text-yellow-300">عقل ومستقبل طفلك</span>
-                </h1>
-                <p class="text-lg md:text-xl text-blue-100 mb-8 leading-relaxed">
-                    أكاديمية متخصصة في تعليم البرمجة  للأطفال أونلاين. نساعدهم على الانتقال من استهلاك التكنولوجيا إلى صناعتها بإبداع .
-                </p>
-                <div class="flex flex-col sm:flex-row justify-center gap-4 flex-wrap">
-                    <a href="#register" class="bg-white text-brand-blue px-8 py-3 rounded-full font-bold text-lg shadow-lg hover:bg-gray-100 transition transform hover:-translate-y-1">
-                        ابدأ رحلة التعلم 🚀
-                    </a>
-                    
-                    <a href="https://youtu.be/QdELZSh5pWE?feature=shared" target="_blank" class="bg-red-600 text-white px-8 py-3 rounded-full font-bold text-lg shadow-lg hover:bg-red-700 transition transform hover:-translate-y-1 flex items-center justify-center gap-2">
-                        <i class="fa-brands fa-youtube"></i> شاهد حصة تجريبية
-                    </a>
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                
+                <!-- Text Content -->
+                <div class="md:w-1/2 text-center md:text-right">
+                    <span class="bg-brand-orange text-white text-sm font-bold px-3 py-1 rounded-full mb-4 inline-block shadow-md">
+                        للأطفال من 8 - 12 سنة
+                    </span>
+                    <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                        استثمار حقيقي في <br>
+                        <span class="text-yellow-300">عقل ومستقبل طفلك</span>
+                    </h1>
+                    <p class="text-lg md:text-xl text-blue-100 mb-8 leading-relaxed">
+                        أكاديمية متخصصة في تعليم البرمجة للأطفال أونلاين. نساعدهم على الانتقال من استهلاك التكنولوجيا إلى صناعتها بإبداع.
+                    </p>
+                    <div class="flex flex-col sm:flex-row justify-center md:justify-start gap-4 flex-wrap">
+                        <a href="#register" class="bg-white text-brand-blue px-8 py-3 rounded-full font-bold text-lg shadow-lg hover:bg-gray-100 transition transform hover:-translate-y-1">
+                            ابدأ رحلة التعلم 🚀
+                        </a>
+                        
+                        <a href="https://youtu.be/QdELZSh5pWE?feature=shared" target="_blank" class="bg-red-600 text-white px-8 py-3 rounded-full font-bold text-lg shadow-lg hover:bg-red-700 transition transform hover:-translate-y-1 flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-youtube"></i> شاهد حصة تجريبية
+                        </a>
 
-                    <a href="#courses" class="border-2 border-white text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-white hover:text-brand-blue transition">
-                        استكشف المنهج
-                    </a>
+                        <a href="#courses" class="border-2 border-white text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-white hover:text-brand-blue transition">
+                            استكشف المنهج
+                        </a>
+                    </div>
                 </div>
+
+                <!-- Image Content (New) -->
+                <div class="md:w-1/2 relative">
+                    <div class="relative z-10">
+                        <!-- Main Image -->
+                        <div class="absolute inset-0 bg-brand-orange rounded-[2rem] transform rotate-3 opacity-30"></div>
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
+                             alt="تعليم البرمجة" 
+                             class="relative rounded-[2rem] shadow-2xl border-4 border-white/20 w-full object-cover h-[400px] transform hover:scale-[1.02] transition duration-500">
+                        
+                        <!-- Floating Badges -->
+                        <div class="absolute -bottom-6 -right-6 bg-white p-4 rounded-xl shadow-lg text-brand-blue animate-bounce hidden md:flex items-center gap-2">
+                            <div class="bg-blue-100 p-2 rounded-full"><i class="fa-solid fa-code text-xl"></i></div>
+                            <span class="font-bold text-sm">كود حقيقي</span>
+                        </div>
+                        <div class="absolute -top-6 -left-6 bg-white p-4 rounded-xl shadow-lg text-brand-orange hidden md:flex items-center gap-2">
+                            <div class="bg-orange-100 p-2 rounded-full"><i class="fa-solid fa-laptop text-xl"></i></div>
+                            <span class="font-bold text-sm">تعليم تفاعلي</span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
         
-        <!-- Decorative Shapes -->
-        <div class="absolute bottom-0 left-0 transform translate-y-1/2 translate-x-[-20%] opacity-20">
+        <!-- Decorative Shapes (Background) -->
+        <div class="absolute bottom-0 left-0 transform translate-y-1/2 translate-x-[-20%] opacity-10">
             <i class="fa-solid fa-laptop-code text-9xl"></i>
         </div>
-        <div class="absolute top-20 right-0 transform translate-x-[20%] opacity-20">
+        <div class="absolute top-20 right-0 transform translate-x-[20%] opacity-10">
             <i class="fa-solid fa-rocket text-9xl"></i>
         </div>
     </section>
@@ -535,38 +561,30 @@
         </div>
     </section>
 
-    <!-- GLOBAL SPREAD -->
+    <!-- PROGRAMMING IMAGES -->
     <section id="contact" class="py-16 bg-blue-50 relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-12">
-                <span class="bg-white text-brand-blue px-4 py-1 rounded-full text-sm font-bold shadow-sm mb-3 inline-block">عالمية التعليم</span>
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">نصل إليكم أينما كنتم</h2>
+                <span class="bg-white text-brand-blue px-4 py-1 rounded-full text-sm font-bold shadow-sm mb-3 inline-block">معرض الصور</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">عالم من الإبداع الرقمي</h2>
                 <p class="text-gray-600 max-w-2xl mx-auto text-lg leading-relaxed">
-                    نفخر بوجود مجتمع كبير من المبدعين الصغار ينضمون إلينا من مختلف أنحاء الوطن العربي:
+                    نساعد الطلاب على تحويل أفكارهم إلى واقع ملموس من خلال البرمجة والتصميم.
                 </p>
             </div>
 
             <div class="grid md:grid-cols-3 gap-6 mb-12">
-                <!-- EGYPT -->
-                <a href="https://wa.me/201279180008" target="_blank" class="block bg-white p-6 rounded-2xl shadow-lg text-center transform hover:scale-105 transition duration-300 hover:shadow-xl cursor-pointer">
-                    <img src="https://flagcdn.com/w160/eg.png" alt="علم مصر" class="h-16 w-auto mx-auto mb-4 rounded shadow-sm object-cover">
-                    <h3 class="text-xl font-bold text-brand-dark mb-2"> مصر</h3>
-                    <p class="text-sm text-gray-400 group-hover:text-brand-blue">اضغط للتواصل <i class="fa-brands fa-whatsapp"></i></p>
-                </a>
-
-                <!-- KSA -->
-                <a href="https://wa.me/966575152079" target="_blank" class="block bg-white p-6 rounded-2xl shadow-lg text-center transform hover:scale-105 transition duration-300 hover:shadow-xl cursor-pointer">
-                    <img src="https://flagcdn.com/w160/sa.png" alt="علم السعودية" class="h-16 w-auto mx-auto mb-4 rounded shadow-sm object-cover">
-                    <h3 class="text-xl font-bold text-brand-dark mb-2"> السعودية</h3>
-                    <p class="text-sm text-gray-400 group-hover:text-brand-blue">اضغط للتواصل <i class="fa-brands fa-whatsapp"></i></p>
-                </a>
-
-                <!-- UAE -->
-                <a href="https://wa.me/971526524830" target="_blank" class="block bg-white p-6 rounded-2xl shadow-lg text-center transform hover:scale-105 transition duration-300 hover:shadow-xl cursor-pointer">
-                    <img src="https://flagcdn.com/w160/ae.png" alt="علم الإمارات" class="h-16 w-auto mx-auto mb-4 rounded shadow-sm object-cover">
-                    <h3 class="text-xl font-bold text-brand-dark mb-2"> الإمارات</h3>
-                    <p class="text-sm text-gray-400 group-hover:text-brand-blue">اضغط للتواصل <i class="fa-brands fa-whatsapp"></i></p>
-                </a>
+                <!-- Image 1 -->
+                <div class="bg-white p-3 rounded-2xl shadow-lg transform hover:scale-105 transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Programming Code" class="w-full h-64 object-cover rounded-xl">
+                </div>
+                <!-- Image 2 -->
+                <div class="bg-white p-3 rounded-2xl shadow-lg transform hover:scale-105 transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Coding Laptop" class="w-full h-64 object-cover rounded-xl">
+                </div>
+                <!-- Image 3 -->
+                <div class="bg-white p-3 rounded-2xl shadow-lg transform hover:scale-105 transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Learning Tech" class="w-full h-64 object-cover rounded-xl">
+                </div>
             </div>
         </div>
     </section>
@@ -587,20 +605,9 @@
                         <div class="space-y-4 text-sm">
                             <div class="flex items-center mt-4">
                                 <i class="fa-solid fa-envelope text-brand-orange ml-3"></i>
-                                <span>info@webmax.academy</span>
+                                <span>info@webmax.com</span>
                             </div>
-                            <a href="https://wa.me/201279180008" target="_blank" class="flex items-center hover:text-brand-orange transition">
-                                <img src="https://flagcdn.com/w20/eg.png" class="w-5 ml-3 rounded-sm" alt="Egypt">
-                                <span dir="ltr">+20 127 918 0008</span>
-                            </a>
-                            <a href="https://wa.me/966575152079" target="_blank" class="flex items-center hover:text-brand-orange transition">
-                                <img src="https://flagcdn.com/w20/sa.png" class="w-5 ml-3 rounded-sm" alt="KSA">
-                                <span dir="ltr">+966 57 515 2079</span>
-                            </a>
-                            <a href="https://wa.me/971526524830" target="_blank" class="flex items-center hover:text-brand-orange transition">
-                                <img src="https://flagcdn.com/w20/ae.png" class="w-5 ml-3 rounded-sm" alt="UAE">
-                                <span dir="ltr">+971 52 652 4830</span>
-                            </a>
+              
                         </div>
                     </div>
                 </div>
